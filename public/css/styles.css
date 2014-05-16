@@ -1,0 +1,15 @@
+.straitLogo{
+    height: 40px;
+}
+.miniLogo{
+    height: 40px;
+}
+.panel{
+    border-radius: 5px;
+}
+h1, h2, h3, h4{
+    margin: 20px;
+}
+#contact-form{
+    margin: 20px;
+}
