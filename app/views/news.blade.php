@@ -20,9 +20,13 @@ welcome to PHP Laravel
 @endforeach
 
 
+
+
+
 @stop
 
 @section('footer')
-@parent
-<p>All rights reserved.</p>
+<div class="small-12 columns panel">
+    @parent
+</div>
 @stop

@@ -1,3 +1,6 @@
+
+
+
 .straitLogo{
     height: 40px;
 }
@@ -7,9 +10,50 @@
 .panel{
     border-radius: 5px;
 }
-h1, h2, h3, h4{
+h1, h2, h3, h4, p{
     margin: 20px;
+    margin-left: 20px;
 }
 #contact-form{
     margin: 20px;
+}
+.social{
+    width: 20px;
+    margin: 10px 20px;
+    float: left;
+}
+#socialA{
+    margin-left: 50px;
+}
+.foundicon-twitter{
+    width: 20px;
+}
+#img, #imgLogo{
+    display: none;
+
+
+
+}
+.filterD{
+    float: left;
+}
+@media (min-width: 750px) {
+    .social{
+
+        float: none;
+    }
+    #socialA{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    #img, #imgLogo{
+        display: block;
+        width: 180px;
+        margin-left: 25px;
+        float: left;
+    }
+}
+
+@media (min-width: 960px) {
+
 }
