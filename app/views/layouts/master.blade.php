@@ -81,7 +81,7 @@
         </footer>
     <form class="large-6 medium-6 columns">
         <fieldset>
-            <legend>Subscribe to our Newsletter</legend>
+            <legend style="color: #798286;">Subscribe to our Newsletter</legend> <!-- TODO explain why i used inline style in evaluation -->
 
             <label>Your Email:
                 <input type="text" placeholder="Enter your email to recieve our newsletter...">

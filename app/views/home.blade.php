@@ -19,7 +19,7 @@ welcome to Bugz &amp; Beastiez
         </div>
     </li>
     <li>
-        <img src=img/slideshow/rhino.jpg" alt="rhino" />
+        <img src="img/slideshow/rhino.jpg" alt="rhino" />
         <div class="orbit-caption">
             Caption Three.
         </div>

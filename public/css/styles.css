@@ -1,8 +1,28 @@
 
+.active a{
+    color: red;
+}
 
+fieldset{
+    border: 2px solid gray;
+}
 .panel{
-    background-color:
+    background-color: #fbfbf2
+    ;
 ;
+}
+
+i{
+   color: #798286;
+
+}
+
+.panel p, .panel h1, .panel h2, .panel h3, .panel h4{
+    color: #798286;
+}
+
+body{
+    background-image: url('../img/background/background2.jpg');
 }
 
 .slide{
@@ -20,7 +40,7 @@
 h1, h2, h3, h4, p{
     margin: 20px;
     margin-left: 20px;
-    color: #7A8B8B;
+    color: #798286;
 }
 #contact-form{
     margin: 20px;
@@ -31,7 +51,7 @@ h1, h2, h3, h4, p{
     float: left;
 }
 #socialA{
-    margin-left: 50px;
+    margin-left: 80px;
 }
 .foundicon-twitter{
     width: 20px;

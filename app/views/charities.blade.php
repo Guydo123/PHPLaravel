@@ -37,7 +37,7 @@ Charities
 <h2>Charities</h2>
 <div class="columns panel">
 <div class="large-4 medium-4 columns">
-    <img href="#" src="img/orrangutan2.jpg" alt="orrangutan" />
+    <img href="#" src="img/orrangutan.jpg" alt="orrangutan" />
 </div>
 <div class="large-8 medium-8 columns">
 <p>This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Servicesv
