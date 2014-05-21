@@ -11,6 +11,9 @@
         <link href="css/styles.css" type="text/css" rel="stylesheet">
         <link href="buttons/foundation_icons_social/stylesheets/social_foundicons.css" type="text/css" rel="stylesheet">
         <link href="buttons/foundation_icons_social/stylesheets/social_foundicons_ie7.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="js/plugins/fancybox/jquery.fancybox.css">
+
+
     </head>
 
     <body onload="hideItems('dd','hide answers')">
@@ -21,7 +24,7 @@
         <div class="contain-to-grid sticky">
         <nav class="top-bar" data-topbar>
         <ul class="title-area">
-        <li class="name"><h1><a><img src="img/straitLogo.gif" alt="straitLogo" class="straitLogo" </a></h1></li>
+        <li class="name"><h1><a><img src="img/bladeImg/straitLogo44.gif" alt="straitLogo" class="straitLogo" </a></h1></li>
 
             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
             <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -46,7 +49,7 @@
 
         </div>
     <div class="row" id="page">
-    <div id="content" class="row">
+    <div id="content" class="">
 
      <section>
          <div id="page">
@@ -72,7 +75,7 @@
         <footer>
             <nav class="top-bar" data-topbar>
                 <ul class="title-area">
-                    <li class="name"><h1><a><img src="img/miniLogo.gif" alt="mimiLogo" class="miniLogo" </a></h1></li>
+                    <li class="name"><h1><a><img src="img/bladeImg/miniLogo2.gif" alt="mimiLogo" class="miniLogo" </a></h1></li>
                 </ul>
             </nav>
         </footer>
@@ -103,7 +106,7 @@
     </div>
     <div id="img" class="large-4 medium-4">
         <a href="#">
-        <img src="img/logo-2.gif" id="imgLogo" alt="logO" />
+        <img src="img/bladeImg/logo3.gif" id="imgLogo" alt="logO" />
         </a>
     </div>
         @show
@@ -117,6 +120,34 @@
     <script>
         $(document).foundation();
     </script>
+    <script src="js/plugins/cycle2/cycle2.js"></script>
+    <script src="js/plugins/fancybox/jquery.fancybox.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            /* This is basic - uses default settings */
+
+            $("a.single_image").fancybox();
+
+            /* Using custom settings */
+
+            $("a#inline").fancybox({
+                'hideOnContentClick': true
+            });
+
+            /* Apply fancybox to multiple items */
+
+            $("a.group").fancybox({
+                'transitionIn'	:	'elastic',
+                'transitionOut'	:	'elastic',
+                'speedIn'		:	600,
+                'speedOut'		:	200,
+                'overlayShow'	:	false
+            });
+
+        });
+    </script>
+
     </body>
     </html>
 

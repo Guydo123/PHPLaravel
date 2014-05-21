@@ -62,6 +62,20 @@ Route::get('/faq', function()
     return View::make('faq');
 });
 
+Route::get('/designsTwo', function()
+{
+    return View::make('designsTwo');
+});
+
+Route::get('/designsThree', function()
+{
+    return View::make('designsThree');
+});
+Route::get('/designsFour', function()
+{
+    return View::make('designsFour');
+});
+
 Route::post('contact',function(){
     $fromEmail = Input::get('email');
     $fromName = Input::get('name');

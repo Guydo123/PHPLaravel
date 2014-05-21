@@ -7,33 +7,28 @@ Charities
 @section('content')
 <ul class="example-orbit" data-orbit>
     <li>
-        <img src="img/rhino.jpg" alt="rhino" />
+        <img class="slide" src="img/slideshow/elephant.5.jpg" alt="elephantInAfrica" />
         <div class="orbit-caption">
-            blar
+            The Elephants of Africa.
         </div>
     </li>
     <li class="active">
-        <img src="img/rhino.jpg" alt="rhino" />
+        <img class="slide" src="img/slideshow/manta!!!3.jpg" alt="manta" />
         <div class="orbit-caption">
-            Caption Two.
+            The Manta in our seas.
         </div>
     </li>
     <li>
-        <img src="img/rhino.jpg" alt="rhino" />
+        <img class="slide" src="img/slideshow/DIVING2.jpg" alt="OurSea" />
         <div class="orbit-caption">
-            Caption Three.
+            Our ocean corals.
         </div>
     </li>
-    <li>
-        <img src="img/rhino.jpg" alt="rhino" />
-        <div class="orbit-caption">
-            Caption Three.
-        </div>
-    </li>
+
 </ul>
 <div class="large-12 medium-12 small-12 columns">
     <dl class="sub-nav">
-        <dt>Filter:</dt>
+
         <dd><a href="index.php/about">About Us</a></dd>
         <dd><a href="index.php/family">The Family</a></dd>
         <dd class="active"><a href="index.php/charities">Charities</a></dd>
@@ -42,7 +37,7 @@ Charities
 <h2>Charities</h2>
 <div class="columns panel">
 <div class="large-4 medium-4 columns">
-    <img href="#" src="#" alt="#" />
+    <img href="#" src="img/orrangutan2.jpg" alt="orrangutan" />
 </div>
 <div class="large-8 medium-8 columns">
 <p>This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Servicesv

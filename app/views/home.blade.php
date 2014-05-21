@@ -7,25 +7,25 @@ welcome to Bugz &amp; Beastiez
 @section('content')
 <ul class="example-orbit" data-orbit>
     <li>
-        <img src="img/rhino.jpg" alt="rhino" />
+        <img src="img/slideshow/rhino.jpg" alt="rhino" />
         <div class="orbit-caption">
             blar
         </div>
     </li>
     <li class="active">
-        <img src="img/rhino.jpg" alt="rhino" />
+        <img src="img/slideshow/rhino.jpg" alt="rhino" />
         <div class="orbit-caption">
             Caption Two.
         </div>
     </li>
     <li>
-        <img src="img/rhino.jpg" alt="rhino" />
+        <img src=img/slideshow/rhino.jpg" alt="rhino" />
         <div class="orbit-caption">
             Caption Three.
         </div>
     </li>
     <li>
-        <img src="img/rhino.jpg" alt="rhino" />
+        <img src="img/slideshow/rhino.jpg" alt="rhino" />
         <div class="orbit-caption">
             Caption Three.
         </div>
@@ -59,7 +59,12 @@ welcome to Bugz &amp; Beastiez
 <div class="large-4 medium-4 columns panel">
     <a href="index.php/products">
         <h4> Welcome</h4>
-        <img class="homeProd" src="img/rhino.jpg" alt="#" />  </a>
+        <div class="cycle-slideshow">
+        <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+        <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+        <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            </div>
+    </a>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 
@@ -67,7 +72,12 @@ welcome to Bugz &amp; Beastiez
 <div class="large-4 medium-4 columns panel">
     <a href="index.php/products">
         <h4> Welcome</h4>
-        <img class="homeProd" src="img/rhino.jpg" alt="#" /> </a>
+        <div class="cycle-slideshow">
+            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            </div>
+    </a>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 
@@ -75,7 +85,13 @@ welcome to Bugz &amp; Beastiez
 <div class="large-4 medium-4 columns panel">
     <a href="index.php/products">
     <h4> Welcome</h4>
-    <img class="homeProd" src="img/rhino.jpg" alt="#" /> </a>
+        <div class="cycle-slideshow">
+            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+       </div>
+    </a>
+
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
 
