@@ -5,7 +5,7 @@ Contact Us
 @stop
 
 @section('content')
-<h2>Welcome</h2>
+<h2>Contact Us</h2>
 <p>Feel free to contact us for any reason.
     Either send us an email, call us or fill in the form below.
     We will get back in touch as soon as possible.</p>

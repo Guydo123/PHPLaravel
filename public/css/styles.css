@@ -1,8 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter&subset=latin,latin-ext);
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
 
-.active a{
-    color: red;
+    background: none repeat scroll 0% 0% #EBCEAC;
 }
-
+a{
+    color: #798286;
+}
+.contain-to-grid{
+    background-color: rgba(0,0,0,0.7) !important;
+}
+#opTop{
+    background-color: rgba(0,0,0,0.0) !important;
+}.top-bar{
+     background-color: rgba(0,0,0,0.7) !important;
+ }
+a:hover, a:focus{
+    background-color: #000000;
+}
 fieldset{
     border: 2px solid gray;
 }
@@ -12,6 +26,10 @@ fieldset{
 ;
 }
 
+.sub-nav dt, .sub-nav dd, .sub-nav li {
+    font-size: 1.0rem;
+}
+
 i{
    color: #798286;
 
@@ -19,6 +37,7 @@ i{
 
 .panel p, .panel h1, .panel h2, .panel h3, .panel h4{
     color: #798286;
+    font-family: 'Bitter', serif;
 }
 
 body{
@@ -41,6 +60,7 @@ h1, h2, h3, h4, p{
     margin: 20px;
     margin-left: 20px;
     color: #798286;
+    font-family: 'Bitter', serif;
 }
 #contact-form{
     margin: 20px;

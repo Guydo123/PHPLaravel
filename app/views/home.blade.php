@@ -5,7 +5,12 @@ welcome to Bugz &amp; Beastiez
 @stop
 
 @section('content')
-<ul class="example-orbit" data-orbit>
+<ul class="example-orbit" data-orbit data-options="animation:slide;
+                  pause_on_hover: false;
+                  animation_speed: 500;
+                  timer_speed: 3000;
+                  navigation_arrows:true;
+                  bullets:false;">
     <li>
         <img src="img/slideshow/rhino.jpg" alt="rhino" />
         <div class="orbit-caption">
