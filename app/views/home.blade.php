@@ -61,6 +61,7 @@ welcome to Bugz &amp; Beastiez
 </div>
 <div class="productsHome">
 <h3>Products</h3>
+    <div class="row">
 <div class="large-4 medium-4 columns panel">
     <a href="index.php/products">
         <h4> Welcome</h4>
@@ -102,6 +103,7 @@ welcome to Bugz &amp; Beastiez
 
 </div>
 </div>
+    </div>
 
 <div>
 <h3>News</h3>

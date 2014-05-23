@@ -38,17 +38,7 @@ Designs
         <p>The Pig</p></div>
             </div>
             <div class="row">
-    <div class="large-6 medium-6 columns">
-        <a class="single_image"  href="img/lightbox/rhino.jpg" title="Rhino - Africa Collection.">
-            <img src="img/thumbs/rhinothumbnail.jpg" alt="rhino" />
-        </a>
-
-        <p>The Rhino</p></div>
-    <div class="large-6 medium-6 columns">
-        <a class="single_image"  href="img/lightbox/rhino.jpg" title="Rhino - Africa Collection.">
-            <img src="img/thumbs/rhinothumbnail.jpg" alt="rhino" />
-        </a>
-        <p>The Rhino</p></div>
+    <p>More to be added...</p>
 </div>
 
 </div>

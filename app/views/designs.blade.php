@@ -15,29 +15,50 @@ Designs
     <h2>Africa</h2>
     <div class="row">
     <div class="large-6 medium-6 columns">
-        <a class="single_image"  href="img/lightbox/rhino2.jpg" title="The Rhino - Africa Collection.">
-            <img src="img/thumbs/rhinothumbnail.jpg" alt="rhino" />
+
+        <a class="single_image"  href="img/lightbox/Cheetah.gif" title="The Cheetah - Africa Collection.">
+            <img src="img/thumbs/Cheetahthumb.gif" alt="cheetah" />
         </a>
-        <p>The Rhino</p></div>
+        <p>The Cheetah</p>
+
+
+
+    </div>
+
+
+
+
     <div class="large-6 medium-6 columns">
         <a class="single_image"  href="img/lightbox/Spring_Bok.jpg" title="The Spring Bok - Africa Collection.">
             <img src="img/thumbs/Spring_Bokthumbs.gif" alt="SpringBok" />
         </a>
+
+
         <p>The Spring Bok</p>
     </div>
     </div>
+
+
     <div class="row">
+
+
+    <div class="large-6 medium-6 columns">
+
+
+        <a class="single_image"  href="img/lightbox/rhino2.jpg" title="The Rhino - Africa Collection.">
+            <img src="img/thumbs/rhinothumbnail.jpg" alt="rhino" />
+        </a>
+        <p>The Rhino</p>   </div>
+
     <div class="large-6 medium-6 columns">
         <a class="single_image"  href="img/lightbox/Hippo-photo-shop.jpg" title="THe Hippo - Africa Collection.">
             <img src="img/thumbs/Hippothumb.gif" alt="Hippo" />
         </a>
         <p>The Hippo</p></div>
-    <div class="large-6 medium-6 columns">
-        <a class="single_image"  href="img/lightbox/Cheetah.gif" title="The Cheetah - Africa Collection.">
-            <img src="img/thumbs/Cheetahthumb.gif" alt="cheetah" />
-        </a>
-        <p>The Cheetah</p>
-    </div>
+
+
+
+
         </div>
     <div class="row">
     <div class="large-6 medium-6 columns">
