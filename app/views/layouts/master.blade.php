@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="js/plugins/fancybox/jquery.fancybox.css">
         <link href='http://fonts.googleapis.com/css?family=Bitter&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
+
+
     </head>
 
     <body onload="hideItems('dd','hide answers')">
@@ -24,7 +26,7 @@
         <div class="contain-to-grid sticky">
         <nav class="top-bar" id="opTop" data-topbar>
         <ul class="title-area">
-        <li class="name"><h1><a><img src="img/bladeImg/straitLogo44.gif" alt="straitLogo" class="straitLogo" </a></h1></li>
+        <li class="name"><h1><a href="index.php/products"><img src="img/bladeImg/straitLogo44.gif" alt="straitLogo" class="straitLogo" </a></h1></li>
 
             <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
             <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -35,7 +37,7 @@
 
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php/about">About</a></li>
-                <li><a href="index.php/products">Products</a></li>
+                <li><a href="index.php/potteryCupsAfrica">Products</a></li>
                 <li><a href="index.php/designs">Designs</a></li>
                 <li><a href="index.php/contact">Contact</a></li>
                 <li><a href="index.php/faq">FAQ</a></li>
@@ -75,7 +77,7 @@
         <footer>
             <nav class="top-bar" data-topbar>
                 <ul class="title-area">
-                    <li class="name"><h1><a><img src="img/bladeImg/miniLogo2.gif" alt="mimiLogo" class="miniLogo" </a></h1></li>
+                    <li class="name"><h1><a href="index.php/products"><img src="img/bladeImg/miniLogo2.gif" alt="mimiLogo" class="miniLogo" </a></h1></li>
                 </ul>
             </nav>
         </footer>
@@ -105,7 +107,7 @@
 
     </div>
     <div id="img" class="large-4 medium-4">
-        <a href="#">
+        <a href="index.php/products">
         <img src="img/bladeImg/logo3.gif" id="imgLogo" alt="logO" />
         </a>
     </div>
@@ -172,6 +174,7 @@
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(wf, s);
         })(); </script>
+
 
     </body>
     </html>

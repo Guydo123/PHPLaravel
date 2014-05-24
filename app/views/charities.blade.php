@@ -29,9 +29,9 @@ Charities
 <div class="large-12 medium-12 small-12 columns">
     <dl class="sub-nav">
 
-        <dd><a href="index.php/about">About Us</a></dd>
-        <dd><a href="index.php/family">The Family</a></dd>
-        <dd class="active"><a href="index.php/charities">Charities</a></dd>
+        <dd class="AboutNav"><a href="index.php/about">About Us</a></dd>
+        <dd class="AboutNav"><a href="index.php/family">The Family</a></dd>
+        <dd class="active AboutNav"><a href="index.php/charities">Charities</a></dd>
     </dl>
 </div>
 <h2>Charities</h2>

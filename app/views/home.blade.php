@@ -10,29 +10,29 @@ welcome to Bugz &amp; Beastiez
                   animation_speed: 500;
                   timer_speed: 3000;
                   navigation_arrows:true;
-                  bullets:false;">
+                  bullets:true;">
     <li>
-        <img src="img/slideshow/rhino.jpg" alt="rhino" />
+        <img class="BIg" src="img/Lightbox/Lizard.gif" alt="Turtles" />
         <div class="orbit-caption">
-            blar
+           The Turtles
         </div>
     </li>
     <li class="active">
-        <img src="img/slideshow/rhino.jpg" alt="rhino" />
+        <img class="BIg" src="img/lightbox/Cheetah.gif" alt="Cheetah" />
         <div class="orbit-caption">
-            Caption Two.
+            The Cheetah
         </div>
     </li>
     <li>
-        <img src="img/slideshow/rhino.jpg" alt="rhino" />
+        <img class="BIg" src="img/lightbox/Horse.gif" alt="Horse" />
         <div class="orbit-caption">
-            Caption Three.
+            The Horse
         </div>
     </li>
     <li>
-        <img src="img/slideshow/rhino.jpg" alt="rhino" />
+        <img class="BIg" src="img/lightbox/Bug.gif" alt="Bug" />
         <div class="orbit-caption">
-            Caption Three.
+            The Bug
         </div>
     </li>
 </ul>
@@ -62,48 +62,67 @@ welcome to Bugz &amp; Beastiez
 <div class="productsHome">
 <h3>Products</h3>
     <div class="row">
-<div class="large-4 medium-4 columns panel">
+        <div class="Large-12 medium-12 columns panel">
+<div class="large-3 medium-6 columns">
     <a href="index.php/products">
-        <h4> Welcome</h4>
+        <h4>Pottery</h4>
         <div class="cycle-slideshow">
-        <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
-        <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
-        <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             </div>
     </a>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        <p class="caption">Our awesome designs can brighten up your dining with
+            our collection of plates, mugs and bowles.</p>
 
 </div>
-<div class="large-4 medium-4 columns panel">
+<div class="large-3 medium-6 columns">
     <a href="index.php/products">
-        <h4> Welcome</h4>
+        <h4>For the Kitchen</h4>
         <div class="cycle-slideshow">
-            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
-            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
-            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             </div>
     </a>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    <p class="caption">Our awesome designs can brighten up your dining with
+        our collection of plates, mugs and bowles.</p>
 
 </div>
-<div class="large-4 medium-4 columns panel">
+<div class="large-3 medium-6 columns">
     <a href="index.php/products">
-    <h4> Welcome</h4>
+    <h4>For Artists</h4>
         <div class="cycle-slideshow">
-            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
-            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
-            <img class="homeProd" src="img/thumbs/rhinothumbnail.jpg" alt="#" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+            <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
        </div>
     </a>
 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    <p class="caption">Our awesome designs can brighten up your dining with
+        our collection of plates, mugs and bowles.</p>
 
 </div>
+
+        <div class="large-3 medium-6 columns">
+            <a href="index.php/products">
+                <h4>Cards & Canvas</h4>
+                <div class="cycle-slideshow">
+                    <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+                    <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+                    <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
+                </div>
+            </a>
+
+
+            <p class="caption">Our awesome designs can brighten up your dining with
+                our collection of plates, mugs and bowles.</p>
+
+        </div>
+
 </div>
     </div>
+</div>
 
 <div>
 <h3>News</h3>

@@ -1,10 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter&subset=latin,latin-ext);
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
 
-    background: none repeat scroll 0% 0% #EBCEAC;
+    background: none repeat scroll 0% 0% #666666;
 }
+
 a{
     color: #798286;
+
 }
 .contain-to-grid{
     background-color: rgba(0,0,0,0.7) !important;
@@ -14,8 +16,12 @@ a{
 }.top-bar{
      background-color: rgba(0,0,0,0.7) !important;
  }
-a:hover, a:focus{
-    background-color: #000000;
+
+
+
+.DesNav a, .AboutNav a{
+    font-size: 24px;
+    font-family: 'Bitter', serif;
 }
 fieldset{
     border: 2px solid gray;
@@ -25,7 +31,9 @@ fieldset{
     ;
 ;
 }
-
+.BIg{
+    width: 100%;
+}
 .sub-nav dt, .sub-nav dd, .sub-nav li {
     font-size: 1.0rem;
 }
@@ -86,6 +94,31 @@ h1, h2, h3, h4, p{
 }
 .filterD{
     float: left;
+}
+.HomeProd{
+    width: 100%;
+}
+.panel .caption{
+    font-size: 12px;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+
+background:gray;
+    opacity: 0.8;
+}
+
+.top-bar-section ul li.active>a{
+    background:gray;
+}
+.button{
+    padding: 4px;
+    font-size: 16px;
+    background-color: #798286;
+    border-color: #798286;
+    border-radius: 5px;
+    margin-left: 40px;
+    font-family: 'Bitter', serif;;
 }
 @media (min-width: 750px) {
     .social{

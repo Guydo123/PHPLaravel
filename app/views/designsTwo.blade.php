@@ -1,16 +1,22 @@
 @extends('layouts.master')
 
 @section('title')
-Designs
+Designs - Bugz
 @stop
 
 @section('content')
 
 <h2>Designs</h2>
-<h3 class="filterD"><a href="index.php/designs">Africa</a></h3>
-<h3 class="filterD"><a href="index.php/designsTwo">Bugz</a></h3>
-<h3 class="filterD"><a href="index.php/designsThree">Farm</a></h3>
-<h3 class="filterD"><a href="index.php/designsFour">Reptilez</a></h3>
+<div id="filter" class="large-12 medium-12 small-12 columns">
+    <dl class="sub-nav">
+
+        <dd class="DesNav"><a class="desLink" href="index.php/designs">Africa</a></dd>
+        <dd class="active DesNav"><a class="desLink" href="index.php/designsTwo">Bugz</a></dd>
+        <dd class="DesNav"><a class="desLink" href="index.php/designsThree">Farm</a></dd>
+        <dd class="DesNav"><a class="desLink" href="index.php/designsFour">Reptilez</a></dd>
+        <dd class="DesNav"><a class="DesNavA" href="index.php/designsFive">Other</a></dd>
+    </dl>
+</div>
 <div class="columns panel">
     <h2>Bugz Collection</h2>
     <div class="row">
@@ -39,15 +45,15 @@ Designs
             </div>
             <div class="row">
     <div class="large-6 medium-6 columns">
-        <a class="single_image"  href="img/lightbox/rhino.jpg" title="Rhino - Africa Collection.">
-            <img src="img/thumbs/rhinothumbnail.jpg" alt="rhino" />
+        <a class="single_image"  href="img/lightbox/Caterpillar-True.gif" title="The Caterpillar - Bugz Collection.">
+            <img src="img/thumbs/Caterpillarthumb2.gif" alt="caterpillar" />
         </a>
-        <p>The Rhino</p></div>
+        <p>The Caterpillar</p></div>
     <div class="large-6 medium-6 columns">
-        <a class="single_image"  href="img/lightbox/rhino.jpg" title="Rhino - Africa Collection.">
-            <img src="img/thumbs/rhinothumbnail.jpg" alt="rhino" />
+        <a class="single_image"  href="img/lightbox/Moth.gif" title="The Moth - Bugz Collection.">
+            <img src="img/thumbs/Moththumb.gif" alt="moth" />
         </a>
-        <p>The Rhino</p></div>
+        <p>The Moth</p></div>
 </div>
 
 </div>

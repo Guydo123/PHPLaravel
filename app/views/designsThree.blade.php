@@ -1,16 +1,24 @@
 @extends('layouts.master')
 
 @section('title')
-Designs
+Designs - Farm
 @stop
 
 @section('content')
 
 <h2>Designs</h2>
-<h3 class="filterD"><a href="index.php/designs">Africa</a></h3>
-<h3 class="filterD"><a href="index.php/designsTwo">Bugz</a></h3>
-<h3 class="filterD"><a href="index.php/designsThree">Farm</a></h3>
-<h3 class="filterD"><a href="index.php/designsFour">Reptilez</a></h3>
+
+<div id="filter" class="large-12 medium-12 small-12 columns">
+    <dl class="sub-nav">
+
+        <dd class="DesNav"><a href="index.php/designs">Africa</a></dd>
+        <dd class="DesNav"><a href="index.php/designsTwo">Bugz</a></dd>
+        <dd class="active DesNav"><a href="index.php/designsThree">Farm</a></dd>
+        <dd class="DesNav"><a href="index.php/designsFour">Reptilez</a></dd>
+        <dd class="DesNav"><a class="DesNavA" href="index.php/designsFive">Other</a></dd>
+    </dl>
+</div>
+
 <div class="columns panel">
     <h2>Farm Collection</h2>
     <div class="row">

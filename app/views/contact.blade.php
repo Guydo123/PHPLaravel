@@ -5,6 +5,37 @@ Contact Us
 @stop
 
 @section('content')
+<ul class="example-orbit" data-orbit data-options="animation:slide;
+                  pause_on_hover: false;
+                  animation_speed: 500;
+                  timer_speed: 3000;
+                  navigation_arrows:true;
+                  bullets:false;">
+    <li>
+        <img class="BIg" src="img/Lightbox/Turtles.gif" alt="Turtles" />
+        <div class="orbit-caption">
+            The Turtles
+        </div>
+    </li>
+    <li class="active">
+        <img class="BIg" src="img/lightbox/Spring_bok.gif" alt="springbok" />
+        <div class="orbit-caption">
+            The Spring Bok
+        </div>
+    </li>
+    <li>
+        <img class="BIg" src="img/lightbox/Cockerel.gif" alt="cockerel" />
+        <div class="orbit-caption">
+            The Cockerel
+        </div>
+    </li>
+    <li>
+        <img class="BIg" src="img/lightbox/Termite.gif" alt="termite" />
+        <div class="orbit-caption">
+            The Termite
+        </div>
+    </li>
+</ul>
 <h2>Contact Us</h2>
 <p>Feel free to contact us for any reason.
     Either send us an email, call us or fill in the form below.
@@ -16,6 +47,7 @@ Contact Us
         @endif
 
 <form action="index.php/contact" method="post" id="contact-form">
+
     <p>
         <label for="name">Your Name:</label>
         <input type="text" name="name" required>

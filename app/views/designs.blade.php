@@ -1,18 +1,26 @@
 @extends('layouts.master')
 
 @section('title')
-Designs
+Designs - Africa
 @stop
 
 @section('content')
 
 <h2>Designs</h2>
-<h3 class="filterD"><a href="index.php/designs">Africa</a></h3>
-<h3 class="filterD"><a href="index.php/designsTwo">Bugz</a></h3>
-<h3 class="filterD"><a href="index.php/designsThree">Farm</a></h3>
-<h3 class="filterD"><a href="index.php/designsFour">Reptilez</a></h3>
+
+<div id="filter" class="large-12 medium-12 small-12 columns">
+    <dl class="sub-nav">
+
+        <dd class="active DesNav"><a class="DesNavA" href="index.php/designs">Africa</a></dd>
+        <dd class="DesNav"><a class="DesNavA" href="index.php/designsTwo">Bugz</a></dd>
+        <dd class="DesNav"><a class="DesNavA" href="index.php/designsThree">Farm</a></dd>
+        <dd class="DesNav"><a class="DesNavA" href="index.php/designsFour">Reptilez</a></dd>
+        <dd class="DesNav"><a class="DesNavA" href="index.php/designsFive">Other</a></dd>
+    </dl>
+</div>
+
 <div class="columns panel">
-    <h2>Africa</h2>
+    <h2>Africa Collection</h2>
     <div class="row">
     <div class="large-6 medium-6 columns">
 
@@ -45,8 +53,8 @@ Designs
     <div class="large-6 medium-6 columns">
 
 
-        <a class="single_image"  href="img/lightbox/rhino2.jpg" title="The Rhino - Africa Collection.">
-            <img src="img/thumbs/rhinothumbnail.jpg" alt="rhino" />
+        <a class="single_image"  href="img/lightbox/rhino-True.gif" title="The Rhino - Africa Collection.">
+            <img src="img/thumbs/rhinoTruethumb.gif" alt="rhino" />
         </a>
         <p>The Rhino</p>   </div>
 

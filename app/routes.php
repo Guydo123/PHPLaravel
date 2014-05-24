@@ -76,6 +76,55 @@ Route::get('/designsFour', function()
     return View::make('designsFour');
 });
 
+Route::get('/potteryCupsAfrica', function()
+{
+    return View::make('potteryCupsAfrica');
+});
+
+Route::get('/potteryCupsBugz', function()
+{
+    return View::make('potteryCupsBugz');
+});
+
+Route::get('/potteryCupsFarm', function()
+{
+    return View::make('potteryCupsFarm');
+});
+
+Route::get('/potteryCupsReptilez', function()
+{
+    return View::make('potteryCupsReptilez');
+});
+
+Route::get('/potteryCupsOther', function()
+{
+    return View::make('potteryCupsOther');
+});
+Route::get('/potteryPlatesAfrica', function()
+{
+    return View::make('potteryPlatesAfrica');
+});
+
+Route::get('/potteryPlatesBugz', function()
+{
+    return View::make('potteryPlatesBugz');
+});
+
+Route::get('/potteryPlatesFarm', function()
+{
+    return View::make('potteryPlatesFarm');
+});
+
+Route::get('/potteryPlatesReptilez', function()
+{
+    return View::make('potteryPlatesReptilez');
+});
+
+Route::get('/potteryPlatesOther', function()
+{
+    return View::make('potteryPlatesOther');
+});
+
 Route::post('contact',function(){
     $fromEmail = Input::get('email');
     $fromName = Input::get('name');

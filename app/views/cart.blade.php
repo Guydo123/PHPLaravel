@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-welcome to PHP Laravel
+Shopping Cart
 @stop
 
 @section('content')

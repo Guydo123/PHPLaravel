@@ -6,29 +6,34 @@ About Us
 @stop
 
 @section('content')
-<ul class="example-orbit" data-orbit>
+<ul class="example-orbit" data-orbit data-options="animation:slide;
+                  pause_on_hover: false;
+                  animation_speed: 500;
+                  timer_speed: 3000;
+                  navigation_arrows:true;
+                  bullets:true;">
     <li>
-        <img src="img/slideshow/rhino.jpg" alt="rhino" />
+        <img class="BIg" src="img/Lightbox/Turtles.gif" alt="Turtles" />
         <div class="orbit-caption">
-            blar
+            The Turtles
         </div>
     </li>
     <li class="active">
-        <img src="img/slideshow/rhino.jpg" alt="rhino" />
+        <img class="BIg" src="img/lightbox/Warthog.gif" alt="warthog" />
         <div class="orbit-caption">
-            Caption Two.
+            The Warthog
         </div>
     </li>
     <li>
-        <img src="img/slideshow/rhino.jpg" alt="rhino" />
+        <img class="BIg" src="img/lightbox/Bull.gif" alt="bull" />
         <div class="orbit-caption">
-            Caption Three.
+            The Bull
         </div>
     </li>
     <li>
-        <img src="img/slideshow/rhino.jpg" alt="rhino" />
+        <img class="BIg" src="img/lightbox/Bee.gif" alt="bee" />
         <div class="orbit-caption">
-            Caption Three.
+            The Bee
         </div>
     </li>
 </ul>
@@ -36,9 +41,9 @@ About Us
 <div id="filter" class="large-12 medium-12 small-12 columns">
     <dl class="sub-nav">
 
-        <dd class="active"><a href="index.php/about">About Us</a></dd>
-        <dd><a href="index.php/family">The Family</a></dd>
-        <dd><a href="index.php/charities">Charities</a></dd>
+        <dd class="active AboutNav"><a href="index.php/about">About Us</a></dd>
+        <dd class="AboutNav"><a href="index.php/family">The Family</a></dd>
+        <dd class="AboutNav"><a href="index.php/charities">Charities</a></dd>
     </dl>
 </div>
 
