@@ -22,7 +22,7 @@ Products - Mugs
             <ul class="right">
 
                 <li class="active has-dropdown">
-                    <a href="#">Other</a>
+                    <a href="#">Misc</a>
                     <ul class="dropdown">
 
                         <li><a href="index.php/potteryCupsAfrica">Africa</a></li>
@@ -34,7 +34,7 @@ Products - Mugs
                 </li>
 
                 <li class="active has-dropdown">
-                    <a href="#">Mug</a>
+                    <a href="#">Mugs</a>
                     <ul class="dropdown">
                         <li><a href="index.php/potteryPlatesOther">Plates</a></li>
                         <li><a href="index.php/potterySide-PlatesOther">Side-Plates</a></li>
@@ -55,11 +55,50 @@ Products - Mugs
             </ul>
         </section>
     </nav>
+    <div id="prodNavMobile">
+        <div>
+            <a href="#" data-dropdown="drop" class="large secondary button dropdown" id="DD">Misc</a><br>
+            <ul id="drop" data-dropdown-content class="f-dropdown">
+                <li><a href="index.php/potteryCupsAfrica">Africa</a></li>
+                <li><a href="index.php/potteryCupsBugz">Bugz</a></li>
+                <li><a href="index.php/potteryCupsFarm">Farm</a></li>
+                <li><a href="index.php/potteryCupsReptilez">Reptilez</a></li>
+
+            </ul>
+        </div>
+
+       <a href="#" data-dropdown="drop" class="large secondary button dropdown" id="DDA">Mugs</a><br>
+        <ul id="drop" data-dropdown-content class="f-dropdown">
+            <li><a href="index.php/potteryPlatesFarm">Plates</a></li>
+            <li><a href="index.php/potterySide-PlatesFarm">Side-Plates</a></li>
+            <li><a href="index.php/potteryBowlsFarm">Bowls</a></li>
+            <li><a href="index.php/potterySetsFarm">Sets</a></li>
+            <li><a href="index.php/potteryOtherFarm">Other</a></li>
+        </ul>
+
+        <div>
+            <a href="#" data-dropdown="drop" class="large secondary button dropdown" id="DDB">Pottery</a><br>
+            <ul id="drop" data-dropdown-content class="f-dropdown">
+                <li><a href="index.php/kitchenNapkinsFarm">Kitchen</a></li>
+                <li><a href="index.php/artPencilsFarm">Art Products</a></li>
+                <li><a href="index.php/cardsCardsFarm">Cards & Canvas</a></li>
+                <li><a href="index.php/otherComingSoonFarm">Other</a></li>
+
+            </ul>
+        </div>
+    </div>
 
 
-    <h2>Other Designs - Cups</h2>
+
+
+
+
+    <h2>Misc Designs - Cups</h2>
+    <br><br>
     <div class="row">
-        <div class="large-6 medium-6 columns">
+
+        <div class="medium-row">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - Other 1, Misc Collection. </p>
@@ -67,35 +106,36 @@ Products - Mugs
         </div>
 
 
-        <div class="large-6 medium-6 columns">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - Other 2, Misc Collection. </p>
             <p>$8.99 <a href="#" class="button">Add to Basket</a></p>
         </div>
-
     </div>
 
-    <div class="row">
-        <div class="large-6 medium-6 columns">
+        <div class="medium-row">
+
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - Other 3, Misc Collection. </p>
             <p>$8.99 <a href="#" class="button">Add to Basket</a></p>
         </div>
 
-
-        <div class="large-6 medium-6 columns">
+    </div>
+    <div class="large-row">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - Other 4, Misc Collection. </p>
             <p>$8.99 <a href="#" class="button">Add to Basket</a></p>
         </div>
-
     </div>
 
-    <div class="row">
-        <div class="large-6 medium-6 columns">
+
+        <div class="medium-row">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - Other 5, Misc Collection. </p>
@@ -103,15 +143,15 @@ Products - Mugs
         </div>
 
 
-        <div class="large-6 medium-6 columns">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - Other 6, Misc Collection. </p>
             <p>$8.99 <a href="#" class="button">Add to Basket</a></p>
         </div>
-
+</div>
     </div>
-
+</div>
     @stop
 
     @section('footer')

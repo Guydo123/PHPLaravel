@@ -53,11 +53,44 @@ Products - Mugs
             </ul>
         </section>
     </nav>
+    <div id="prodNavMobile">
+        <div>
+            <a href="#" data-dropdown="drop" class="large secondary button dropdown" id="DD">Africa</a><br>
+            <ul id="drop" data-dropdown-content class="f-dropdown">
+                <li><a href="index.php/potteryCupsBugz">Bugz</a></li>
+                <li><a href="index.php/potteryCupsFarm">Farm</a></li>
+                <li><a href="index.php/potteryCupsReptilez">Reptilez</a></li>
+                <li><a href="index.php/potteryCupsOther">Misc</a></li>
+            </ul>
+        </div>
 
+        <a href="#" data-dropdown="drop" class="large secondary button dropdown" id="DDA">Mugs</a><br>
+        <ul id="drop" data-dropdown-content class="f-dropdown">
+            <li><a href="index.php/potteryPlatesFarm">Plates</a></li>
+            <li><a href="index.php/potterySide-PlatesFarm">Side-Plates</a></li>
+            <li><a href="index.php/potteryBowlsFarm">Bowls</a></li>
+            <li><a href="index.php/potterySetsFarm">Sets</a></li>
+            <li><a href="index.php/potteryOtherFarm">Other</a></li>
+
+        </ul>
+
+        <div>
+            <a href="#" data-dropdown="drop" class="large secondary button dropdown" id="DDB">Pottery</a><br>
+            <ul id="drop" data-dropdown-content class="f-dropdown">
+                <li><a href="index.php/kitchenNapkinsFarm">Kitchen</a></li>
+                <li><a href="index.php/artPencilsFarm">Art Products</a></li>
+                <li><a href="index.php/cardsCardsFarm">Cards & Canvas</a></li>
+                <li><a href="index.php/otherComingSoonFarm">Other</a></li>
+
+            </ul>
+        </div>
+    </div>
 
     <h2>Africa - Cups</h2>
-    <div class="row">
-        <div class="large-6 medium-6 columns">
+    <br><br>
+    <div class="row-large">
+        <div class="row-medium">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - The Cheetah, Africa Collection. </p>
@@ -65,7 +98,7 @@ Products - Mugs
         </div>
 
 
-        <div class="large-6 medium-6 columns">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - The Spring Bok, Africa Collection. </p>
@@ -74,16 +107,16 @@ Products - Mugs
 
     </div>
 
-    <div class="row">
-        <div class="large-6 medium-6 columns">
+    <div class="row-medium">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - The Rhino, Africa Collection. </p>
             <p>$8.99 <a href="#" class="button">Add to Basket</a></p>
         </div>
-
-
-        <div class="large-6 medium-6 columns">
+    </div>
+<div class="row-large">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - The Hippo, Africa Collection. </p>
@@ -92,8 +125,8 @@ Products - Mugs
 
     </div>
 
-    <div class="row">
-        <div class="large-6 medium-6 columns">
+    <div class="row-medium">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - The Hippo, Africa Collection. </p>
@@ -101,7 +134,7 @@ Products - Mugs
         </div>
 
 
-        <div class="large-6 medium-6 columns">
+        <div class="large-4 medium-6 columns">
             <img src="img/thumbs/mug2.gif" alt="dummy" />
             </a>
             <p>Mug - The Hippo, Africa Collection. </p>
@@ -109,7 +142,7 @@ Products - Mugs
         </div>
 
     </div>
-
+</div>
     @stop
 
     @section('footer')
