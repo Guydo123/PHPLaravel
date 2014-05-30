@@ -46,43 +46,70 @@ Family
 </div>
 <h2>The Family</h2>
 <div class="columns panel">
-<p>Bugz and Beastiez is a family business set up by four siblings yada yada</p>
+
+    <div class="columns panel">
+    <div class="row">
+
     <div class="large-4 medium-4 columns">
-        <img href="#" src="#" alt="#" />
+        <img src="img/family1.jpg" alt="family" />
+        <br>
     </div>
+
     <div class="large-8 medium-8 columns">
-        <h3>Ish</h3>
-        <p>This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Servicesv
-            This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services
-            This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services</p>
-    </div>
-    <div class="large-4 medium-4 columns">
-        <img href="#" src="#" alt="#" />
-    </div>
-    <div class="large-8 medium-8 columns">
-        <h3>Guy</h3>
-        <p>This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Servicesv
-            This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services
-            This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services</p>
-    </div><div class="large-4 medium-4 columns">
-        <img href="#" src="#" alt="#" />
-    </div>
-    <div class="large-8 medium-8 columns">
-        <h3>Hugh</h3>
-        <p>This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Servicesv
-            This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services
-            This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services</p>
-    </div>
-    <div class="large-4 medium-4 columns">
-        <img href="#" src="#" alt="#" />
-    </div>
-    <div class="large-8 medium-8 columns">
-        <h3>Isla</h3>
-        <p>This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Servicesv
-            This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services
-            This is the ServicesThis is the ServicesThis is the ServicesThis is the ServicesThis is the Services</p>
+        <h3>Ish - Artist</h3>
+        <p>Ish Campbell is a keen ecologist by profession who
+            has enjoyed wildlife experience all over the world since a young teenager,
+            from coral reef conservation in Malaysia to elephant research in Botswana.
+            She has been in love with Africa since she was a child and it was when in
+            Botswana that she found inspiration to create African art of her own.</div>
     </div>
 </div>
+    </div>
+
+
+<div class="columns panel">
+<div class="columns panel">
+    <div class="row">
+    <div class="large-4 medium-4 columns">
+        <img src="img/family1.jpg" alt="family" />
+    </div>
+    <div class="large-8 medium-8 columns">
+        <h3>Guy - Graphic Designer &amp; Marketeer</h3>
+        <p>Guy Campbell - </p>
+    </div>
+        </div>
+</div>
+</div>
+
+<div class="columns panel">
+<div class="columns panel">
+        <div class="row">
+    <div class="large-4 medium-4 columns">
+        <img src="img/family1.jpg" alt="family" />
+    </div>
+    <div class="large-8 medium-8 columns">
+        <h3>Hugh - Finance Manager</h3>
+        <p>Hugh is our very own mathematics genie who looks after and takes care of all ur finances.
+            He is the one that makes sure our money goes to all the right places in the development and production of our products. </p>
+    </div>
+</div>
+ </div>
+
+</div>
+<div class="columns panel">
+<div class="columns panel">
+<div class="row">
+    <div class="large-4 medium-4 columns">
+        <img src="img/family1.jpg" alt="family" />
+    </div>
+    <div class="large-8 medium-8 columns">
+        <h3>Isla - Social Media Manager</h3>
+        <p>Our very own Socialite, studying for a career in interior
+            design, Isla, brings a flair of creativity to the table.
+            She is Responsible of spreading the word about Bugz &amp; Beastiez.</p></div>
+</div>
+</div>
+    </div>
 @stop
 
 @section('footer')

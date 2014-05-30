@@ -37,7 +37,7 @@
 
                 <li><a href="index.php">Home</a></li>
                 <li><a href="index.php/about">About</a></li>
-                <li><a href="index.php/potteryCupsAfrica">Products</a></li>
+                <li><a href="index.php/potteryMugsAfrica">Products</a></li>
                 <li><a href="index.php/designs">Designs</a></li>
                 <li><a href="index.php/contact">Contact</a></li>
                 <li><a href="index.php/faq">FAQ</a></li>
@@ -85,9 +85,11 @@
         <fieldset>
             <legend style="color: #798286;">Subscribe to our Newsletter</legend> <!-- TODO explain why i used inline style in evaluation -->
 
-            <label>Your Email:
-                <input type="text" placeholder="Enter your email to recieve our newsletter...">
-            </label>
+
+
+            <label for="email">Your Email Address:</label>
+            <input type="email" name="email">
+
         </fieldset>
     </form>
     <div class="large-2 medium-2 columns" id="social">

@@ -58,29 +58,33 @@ Designs - Africa
         </a>
         <p>The Rhino</p>   </div>
 
-    <div class="large-6 medium-6 columns">
-        <a class="single_image"  href="img/lightbox/Hippo-photo-shop.jpg" title="THe Hippo - Africa Collection.">
-            <img src="img/thumbs/Hippothumb.gif" alt="Hippo" />
-        </a>
-        <p>The Hippo</p></div>
+
+        <div class="large-6 medium-6 columns">
+            <a class="single_image"  href="img/lightbox/Warthog.gif" title="The Warthogs - Africa Collection.">
+                <img src="img/thumbs/Warthogthumbs.gif" alt="Warthog" />
+            </a>
+            <p>The Warthogs</p></div>
+    </div>
 
 
 
 
-        </div>
+
+
+
+
     <div class="row">
     <div class="large-6 medium-6 columns">
         <a class="single_image"  href="img/lightbox/Ele_Head.gif" title="The Elephant - Africa Collection.">
             <img src="img/thumbs/Ele_thumb.gif" alt="Elephant" />
         </a>
         <p>The Elephant</p></div>
-    <div class="large-6 medium-6 columns">
-        <a class="single_image"  href="img/lightbox/Warthog.gif" title="The Warthogs - Africa Collection.">
-            <img src="img/thumbs/Warthogthumbs.gif" alt="Warthog" />
-        </a>
-        <p>The Warthogs</p></div>
-        </div>
 
+        <div class="large-6 medium-6 columns">
+            <a class="single_image"  href="img/lightbox/Hippo-photo-shop.gif" title="THe Hippo - Africa Collection.">
+                <img src="img/thumbs/Hippothumb.gif" alt="Hippo" />
+            </a>
+            <p>The Hippo</p></div>
 
 </div>
 

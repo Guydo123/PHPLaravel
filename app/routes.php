@@ -76,53 +76,22 @@ Route::get('/designsFour', function()
     return View::make('designsFour');
 });
 
-Route::get('/potteryCupsAfrica', function()
+Route::get('/designsFive', function()
 {
-    return View::make('potteryCupsAfrica');
+    return View::make('designsFive');
 });
 
-Route::get('/potteryCupsBugz', function()
+
+
+
+Route::get('/potteryBowlsAfrica', function()
 {
-    return View::make('potteryCupsBugz');
+    return View::make('potteryBowlsAfrica');
 });
 
-Route::get('/potteryCupsFarm', function()
+Route::get('/comingSoon', function()
 {
-    return View::make('potteryCupsFarm');
-});
-
-Route::get('/potteryCupsReptilez', function()
-{
-    return View::make('potteryCupsReptilez');
-});
-
-Route::get('/potteryCupsOther', function()
-{
-    return View::make('potteryCupsOther');
-});
-Route::get('/potteryPlatesAfrica', function()
-{
-    return View::make('potteryPlatesAfrica');
-});
-
-Route::get('/potteryPlatesBugz', function()
-{
-    return View::make('potteryPlatesBugz');
-});
-
-Route::get('/potteryPlatesFarm', function()
-{
-    return View::make('potteryPlatesFarm');
-});
-
-Route::get('/potteryPlatesReptilez', function()
-{
-    return View::make('potteryPlatesReptilez');
-});
-
-Route::get('/potteryPlatesOther', function()
-{
-    return View::make('potteryPlatesOther');
+    return View::make('comingSoon');
 });
 
 Route::post('contact',function(){
@@ -143,9 +112,23 @@ Route::post('contact',function(){
     });
     $feedback = 'Thankyou';
     return View::make('contact')->with('feedback',$feedback);
-})
+});
 
-
-
+Route::get('/products',function()
+{
+    if(isset($_GET['submit'])){
+        $cat = Input::get('cat');
+        $type = Input::get('type');
+        $style = Input::get('style');
+    }else{
+        $cat = 1;
+        $type = 1;
+        $style = 1;
+    }
+    $products = DB::table('products_table')->where('id_category',$cat)->where('id_type',$type)->where('id_style',$style)->get();
+    $categories = DB::table('categories_table')->get();
+    $styles = DB::table('styles_table')->get();
+    $types = DB::table('type_table')->get();
+    return View::make('products')->with('categories',$categories,'styles',$styles,'types',$types,'products',$products);
+});
 ?>
-

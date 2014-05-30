@@ -46,8 +46,11 @@ i{
 .panel p, .panel h1, .panel h2, .panel h3, .panel h4{
     color: #798286;
     font-family: 'Bitter', serif;
-}
 
+}
+.panel p{
+    font-size: 12px;
+}
 body{
     background-image: url('../img/background/background2.jpg');
 }
@@ -124,12 +127,12 @@ background:gray;
     color: #ffffff;
     background-color: gray;
     background-color: rgba(0,0,0,0.6) !important;
-    font-size: 12px;
+    font-size: 15px;
     width: 100%;
     margin-left: 0;
     margin-bottom: 0;
     padding-top: 3px;
-    padding: 5px;
+    padding: 6px;
 
 }
 #DDA{
@@ -158,9 +161,14 @@ background:gray;
     #DD,#DDA, #DDB{
          display: none;
      }
+    .panel p{
+          font-size: 14px;
+      }
 }
 
 
 @media (min-width: 960px) {
-
+    .panel p{
+        font-size: 15px;
+    }
 }

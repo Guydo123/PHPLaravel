@@ -18,7 +18,7 @@ Contact Us
         </div>
     </li>
     <li class="active">
-        <img class="BIg" src="img/lightbox/Spring_bok.gif" alt="springbok" />
+        <img class="BIg" src="img/lightbox/Spring_Bok.jpg" alt="springbok" />
         <div class="orbit-caption">
             The Spring Bok
         </div>

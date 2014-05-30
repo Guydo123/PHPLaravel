@@ -13,27 +13,27 @@ About Us
                   navigation_arrows:true;
                   bullets:true;">
     <li>
-        <img class="BIg" src="img/Lightbox/Turtles.gif" alt="Turtles" />
+        <img class="BIg" src="img/Lightbox/Lizard.gif" alt="Turtles" />
         <div class="orbit-caption">
             The Turtles
         </div>
     </li>
     <li class="active">
-        <img class="BIg" src="img/lightbox/Warthog.gif" alt="warthog" />
+        <img class="BIg" src="img/lightbox/Cheetah.gif" alt="Cheetah" />
         <div class="orbit-caption">
-            The Warthog
+            The Cheetah
         </div>
     </li>
     <li>
-        <img class="BIg" src="img/lightbox/Bull.gif" alt="bull" />
+        <img class="BIg" src="img/lightbox/Horse.gif" alt="Horse" />
         <div class="orbit-caption">
-            The Bull
+            The Horse
         </div>
     </li>
     <li>
-        <img class="BIg" src="img/lightbox/Bee.gif" alt="bee" />
+        <img class="BIg" src="img/lightbox/Bug.gif" alt="Bug" />
         <div class="orbit-caption">
-            The Bee
+            The Bug
         </div>
     </li>
 </ul>

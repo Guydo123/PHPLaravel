@@ -55,8 +55,8 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'webdesj3_guy',
-			'username'  => 'webdesj3_guy',
+			'database'  => 'webdesj3_bugz',
+			'username'  => 'webdesj3_bugz',
 			'password'  => 'password',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',

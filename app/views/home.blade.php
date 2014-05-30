@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-welcome to Bugz &amp; Beastiez
+Welcome to Bugz &amp; Beastiez
 @stop
 
 @section('content')
@@ -11,28 +11,29 @@ welcome to Bugz &amp; Beastiez
                   timer_speed: 3000;
                   navigation_arrows:true;
                   bullets:true;">
+
     <li>
-        <img class="BIg" src="img/Lightbox/Lizard.gif" alt="Turtles" />
+        <img class="BIg" src="img/Lightbox/Turtles.gif" alt="Turtles" />
         <div class="orbit-caption">
-           The Turtles
+            The Turtles
+        </div>
+    </li>
+    <li>
+        <img class="BIg" src="img/lightbox/Warthog.gif" alt="warthog" />
+        <div class="orbit-caption">
+            The Warthog
         </div>
     </li>
     <li class="active">
-        <img class="BIg" src="img/lightbox/Cheetah.gif" alt="Cheetah" />
+        <img class="BIg" src="img/lightbox/Bull.gif" alt="bull" />
         <div class="orbit-caption">
-            The Cheetah
+            The Bull
         </div>
     </li>
     <li>
-        <img class="BIg" src="img/lightbox/Horse.gif" alt="Horse" />
+        <img class="BIg" src="img/lightbox/Bee.gif" alt="bee" />
         <div class="orbit-caption">
-            The Horse
-        </div>
-    </li>
-    <li>
-        <img class="BIg" src="img/lightbox/Bug.gif" alt="Bug" />
-        <div class="orbit-caption">
-            The Bug
+            The Bee
         </div>
     </li>
 </ul>
@@ -40,83 +41,86 @@ welcome to Bugz &amp; Beastiez
 
 <h2>Welcome to Bugz and Beastiez</h2>
 <div class="columns panel">
+
 <div class="large-6 medium-6 columns ">
 
-<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting</p>
+<p> We are a family business of 4 siblings who set out as a
+    team on a fun mission to constantly create exciting ideas to bring warmth
+    and freshness to you with our cutting edge designs.
+
+   Each and every design has been inspired by African art and
+    fused with a British sentiment to create something refreshing
+    yet warming for your home.
+</p>
 </div>
 
 <div class="large-6 medium-6 columns">
 
-    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a type
-        specimen book. It has survived not only five centuries, but also the leap into
-        electronic typesetting</p>
+    <p>
+        We have a huge amount of fun carefully designing the sets to give you warm yet modern homeware, however, should you prefer a different colour scheme
+        then please call our artist Ish for a discussion about
+        your perfect choice of colours. Why not see some of our
+        suggestions!</p>
+</div>
+</div>
 
-</div>
-</div>
 <div class="productsHome">
 <h3>Products</h3>
     <div class="row">
         <div class="Large-12 medium-12 columns panel">
-<div class="large-3 medium-6 columns">
-    <a href="index.php/products">
-        <h4>Pottery</h4>
+<div class="large-3 medium-3 small-6 columns panel">
+    <a href="index.php/potteryMugsAfrica">
+        <h4>Ceramics</h4>
+
         <div class="cycle-slideshow">
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             </div>
-    </a>
-        <p class="caption">Our awesome designs can brighten up your dining with
-            our collection of plates, mugs and bowles.</p>
+
+        <p class="caption">Brighten up your dining with
+            our collection of plates, mugs and bowles.</p></a>
 
 </div>
-<div class="large-3 medium-6 columns">
-    <a href="index.php/products">
-        <h4>For the Kitchen</h4>
+<div class="large-3 medium-3 small-6 columns panel">
+    <a href="index.php/comingSoon">
+        <h4>Tableware</h4>
         <div class="cycle-slideshow">
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
-            </div>
-    </a>
-    <p class="caption">Our awesome designs can brighten up your dining with
-        our collection of plates, mugs and bowles.</p>
+          </div>
+
+    <p class="caption">Our tableware collection of coasters, mats, napkins, and aprons.</p></a>
 
 </div>
-<div class="large-3 medium-6 columns">
-    <a href="index.php/products">
+<div class="large-3 medium-3 small-6 columns panel">
+    <a href="index.php/comingSoon">
     <h4>For Artists</h4>
+
         <div class="cycle-slideshow">
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
             <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
        </div>
-    </a>
 
-    <p class="caption">Our awesome designs can brighten up your dining with
-        our collection of plates, mugs and bowles.</p>
+
+    <p class="caption">Inspire yourself with or range of art products; for all you creatives!</p></a>
 
 </div>
 
-        <div class="large-3 medium-6 columns">
-            <a href="index.php/products">
-                <h4>Cards & Canvas</h4>
+        <div class="large-3 medium-3 small-6 columns panel">
+            <a href="index.php/comingSoon">
+                <h4>Canvas</h4>
                 <div class="cycle-slideshow">
                     <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
                     <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
                     <img class="homeProd" src="img/thumbs/mug2.Gif" alt="Dummy" />
                 </div>
-            </a>
 
 
-            <p class="caption">Our awesome designs can brighten up your dining with
-                our collection of plates, mugs and bowles.</p>
+
+            <p class="caption">Our range of cards, posters and </p></a>
 
         </div>
 

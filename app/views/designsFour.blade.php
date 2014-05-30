@@ -14,7 +14,7 @@ Designs - Reptilez
         <dd class="DesNav"><a href="index.php/designsTwo">Bugz</a></dd>
         <dd class="DesNav"><a href="index.php/designsThree">Farm</a></dd>
         <dd class="active DesNav"><a href="index.php/designsFour">Reptilez</a></dd>
-        <dd class="DesNav"><a class="DesNavA" href="index.php/designsFive"></a>Other</dd>
+        <dd class="DesNav"><a class="DesNavA" href="index.php/designsFive">Other</a></dd>
     </dl>
 </div>
 <div class="columns panel">
